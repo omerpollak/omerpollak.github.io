@@ -1,65 +1,48 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" href="https://bumble.com/bumble-brand-assets/favicon/apple-touch-icon.png" /> -->
-    <link rel="icon" href="icons/logo-removebg.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="SparX">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" href="https://bumble.com/bumble-brand-assets/favicon/apple-touch-icon.png" /> -->
+  <link rel="icon" href="icons/logo-removebg.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="SparX">
 
-    <title>SparX</title>
-    <script
-      type="module"
-      crossorigin
-      src="https://tinder-slider.uiinitiative.com/assets/tinder-dzQDLDG-.js"
-    ></script>
-    <link
-      rel="modulepreload"
-      crossorigin
-      href="https://tinder-slider.uiinitiative.com/assets/modulepreload-polyfill-B5Qt9EMX.js"
-    />
-    <link
-      rel="modulepreload"
-      crossorigin
-      href="https://tinder-slider.uiinitiative.com/assets/effect-tinder-B_XAstn7.js"
-    />
-    <link
-      rel="stylesheet"
-      crossorigin
-      href="https://tinder-slider.uiinitiative.com/assets/effect-tinder-Dy-yds0r.css"
-    />
-    <link
-      rel="stylesheet"
-      crossorigin
-      href="https://tinder-slider.uiinitiative.com/assets/tinder-CYbJJoGl.css"
-    />
-    <style>
-      :root {
-        --swiper-tinder-yes-color: rgb(4, 188, 86);
-        --swiper-tinder-no-color: rgb(212, 52, 52);
-      }
+  <link rel="manifest" href="manifest.json">
 
-      body {
-        /* background-color: #f0f0f0;
+  <title>SparX</title>
+  <script type="module" crossorigin src="https://tinder-slider.uiinitiative.com/assets/tinder-dzQDLDG-.js"></script>
+  <link rel="modulepreload" crossorigin
+    href="https://tinder-slider.uiinitiative.com/assets/modulepreload-polyfill-B5Qt9EMX.js" />
+  <link rel="modulepreload" crossorigin
+    href="https://tinder-slider.uiinitiative.com/assets/effect-tinder-B_XAstn7.js" />
+  <link rel="stylesheet" crossorigin href="https://tinder-slider.uiinitiative.com/assets/effect-tinder-Dy-yds0r.css" />
+  <link rel="stylesheet" crossorigin href="https://tinder-slider.uiinitiative.com/assets/tinder-CYbJJoGl.css" />
+  <style>
+    :root {
+      --swiper-tinder-yes-color: rgb(4, 188, 86);
+      --swiper-tinder-no-color: rgb(212, 52, 52);
+    }
+
+    body {
+      /* background-color: #f0f0f0;
 			font-family: 'Arial', sans-serif;
 			display: flex;
 			justify-content: center; */
-      }
+    }
 
-      #app {
-        /* margin-top: 50px; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+    #app {
+      /* margin-top: 50px; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-      /* h1 {
+    /* h1 {
         font-family: "Inter", sans-serif;
         font-size: 2.5rem;
         font-weight: 800;
@@ -69,125 +52,113 @@
         margin: 12px 0px 0px 0px;
       } */
 
-      .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-        margin-top: 16px;
-        overflow: hidden;
-        width: 100%;
-      }
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      margin-top: 16px;
+      overflow: hidden;
+      width: 100%;
+    }
 
-      .header img {
-        display: block;
-        height: 150px;
-      }
+    .header img {
+      display: block;
+      height: 150px;
+    }
 
-      .demo-slide-name {
-        font-size: 36px;
-      }
-    </style>
-  </head>
+    .demo-slide-name {
+      font-size: 36px;
+    }
+  </style>
+</head>
 
-  <body>
-    <div id="app">
-      <!-- Tinder slider -->
-      <div class="header">
-        <img src="icons/logo-flat.png" alt="LoveMatch Logo" />
-      </div>
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="images/1.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Ido</b>, 34</div>
-          </div>
-
-          <div class="swiper-slide">
-            <img src="images/2.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Amit</b>, 38</div>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/3.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Ron</b>, 31</div>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/4.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Tom</b>, 32</div>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/5.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Shay</b>, 34</div>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/6.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Gil</b>, 36</div>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/7.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Ilay</b>, 35</div>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/8.png" alt="" />
-            <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
-            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
-            <div class="demo-slide-name"><b>Daniel</b>, 37</div>
-          </div>
-        </div>
-        <button class="swiper-tinder-button swiper-tinder-button-no">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="48"
-            viewBox="0 -960 960 960"
-            width="48"
-          >
-            <path
-              d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
-            />
-          </svg>
-        </button>
-        <button class="swiper-tinder-button swiper-tinder-button-yes">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="48"
-            viewBox="0 -960 960 960"
-            width="48"
-          >
-            <path
-              d="m480-121-41-37q-106-97-175-167.5t-110-126Q113-507 96.5-552T80-643q0-90 60.5-150.5T290-854q57 0 105.5 27t84.5 78q42-54 89-79.5T670-854q89 0 149.5 60.5T880-643q0 46-16.5 91T806-451.5q-41 55.5-110 126T521-158l-41 37Z"
-            />
-          </svg>
-        </button>
-      </div>
+<body>
+  <div id="app">
+    <!-- Tinder slider -->
+    <div class="header">
+      <img src="icons/logo-flat.png" alt="LoveMatch Logo" />
     </div>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/1.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Ido</b>, 34</div>
+        </div>
 
-    <!-- Cloudflare Pages Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "6430f3dc468e407dba1e0e8fc15ae142"}'
-    ></script>
-    <!-- Cloudflare Pages Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
-      integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=="
-      data-cf-beacon='{"version":"2024.11.0","token":"e4f5eab3e2c7422bae5a07554f8e0b5d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="swiper-slide">
+          <img src="images/2.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Amit</b>, 38</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/3.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Ron</b>, 31</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/4.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Tom</b>, 32</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/5.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Shay</b>, 34</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/6.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Gil</b>, 36</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/7.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Ilay</b>, 35</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/8.png" alt="" />
+          <!-- <div class="swiper-tinder-label swiper-tinder-label-yes">Like</div>
+            <div class="swiper-tinder-label swiper-tinder-label-no">Nope</div> -->
+          <div class="demo-slide-name"><b>Daniel</b>, 37</div>
+        </div>
+      </div>
+      <button class="swiper-tinder-button swiper-tinder-button-no">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+          <path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+        </svg>
+      </button>
+      <button class="swiper-tinder-button swiper-tinder-button-yes">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+          <path
+            d="m480-121-41-37q-106-97-175-167.5t-110-126Q113-507 96.5-552T80-643q0-90 60.5-150.5T290-854q57 0 105.5 27t84.5 78q42-54 89-79.5T670-854q89 0 149.5 60.5T880-643q0 46-16.5 91T806-451.5q-41 55.5-110 126T521-158l-41 37Z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Cloudflare Pages Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "6430f3dc468e407dba1e0e8fc15ae142"}'></script>
+  <!-- Cloudflare Pages Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+    integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=="
+    data-cf-beacon='{"version":"2024.11.0","token":"e4f5eab3e2c7422bae5a07554f8e0b5d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+    crossorigin="anonymous"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+
 </html>
